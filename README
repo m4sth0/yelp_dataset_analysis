@@ -1,7 +1,7 @@
 #Anleitung zur Erstellung und Ausführung des Docker Containers:
 
-1. Github Repository auschecken 
-    git checkout https://github.com/m4sth0/yelp_dataset_analysis.git
+1. Github Repository herunterladen 
+    git clone https://github.com/m4sth0/yelp_dataset_analysis.git
 
 2. In das Github Repository Verzeichnis wechseln
 
