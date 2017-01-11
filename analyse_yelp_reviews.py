@@ -35,6 +35,7 @@ import matplotlib.pyplot as plt
 nltk.download('punkt')
 
 def file_len(fname):
+    """ Rückgabe der Dateilänge"""
     with open(fname) as f:
         for i, l in enumerate(f):
             pass
@@ -86,7 +87,6 @@ def prep_reviews(rfile, n=None, reduce=True, random=False):
             else:
                 rating = star
             yield ([i.encode('utf-8').lower() for i in comment], rating)
-
             counter += 1
 
 # Lokale Pfad für die Review Datei
